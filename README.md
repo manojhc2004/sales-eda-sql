@@ -1,4 +1,4 @@
-📊 Sales Analysis Project (SQL-Based)
+📊 Sales Data Analysis & Exploratory Data Analysis (EDA) Using SQL + Visualization
 📌 Project Overview
 
 📈 Performed end-to-end Sales Analysis using SQL
