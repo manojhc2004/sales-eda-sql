@@ -4,6 +4,8 @@
 This project focuses on performing Exploratory Data Analysis (EDA) on a sales dataset to uncover key business insights.
 The analysis helps understand sales performance, regional trends, shipping efficiency, and state-wise sales behavior using data analysis and visualization techniques.
 
+
+
 🎯 Objectives
 
 Analyze overall sales performance
@@ -16,9 +18,11 @@ Analyze shipping days based on ship mode
 
 Generate actionable business insights using visualizations
 
+
+
 🗂 Dataset Information
 
-Type: Sales Transaction Data
+Type: Sales Transaction Data / data-set are avaliable in data-set /folder
 
 Key Columns:
 
@@ -35,6 +39,8 @@ Key Columns:
 6.Product Name
 
 7.Sales
+
+
 
 🛠 Tools & Technologies Used
 
@@ -54,6 +60,8 @@ Key Columns:
 6.Shipping days calculation using order and ship dates
 
 7.Ship mode vs delivery time analysis
+
+
 
 📊 Visualizations Included
 
@@ -78,10 +86,12 @@ Key Columns:
 
 5.Sales performance varies significantly across regions and states.
 
+
 ✅ Conclusion
 
 This EDA provides meaningful insights into sales trends and operational efficiency.
 The findings can help businesses make data-driven decisions related to regional focus, shipping optimization, and sales strategy improvements.
+
 
 🚀 Future Improvements
 
@@ -90,6 +100,7 @@ Build an interactive dashboard (Power BI / Tableau)
 Perform time-series forecasting
 
 Add customer segmentation analysis
+
 
 
 👤 Author
