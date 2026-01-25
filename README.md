@@ -1,109 +1,187 @@
 📊 Sales Data Analysis – Exploratory Data Analysis (EDA)
+
 📌 Project Overview
 
-This project focuses on performing Exploratory Data Analysis (EDA) on a sales dataset to uncover key business insights.
-The analysis helps understand sales performance, regional trends, shipping efficiency, and state-wise sales behavior using data analysis and visualization techniques.
+📈 Performed end-to-end Sales Analysis using SQL
 
+🧠 Focused on extracting business insights from raw sales data
 
+🗺️ Analysis covers regions, states, cities, products, shipping & categories
 
-🎯 Objectives
+🎯 Objective: Support data-driven decision making
 
-Analyze overall sales performance
+🎯 Business Questions Answered
 
-Identify top and lowest performing states
+❓ Which regions and states generate the highest and lowest sales?
 
-Compare average sales across regions
+❓ Which cities have the highest number of customers?
 
-Analyze shipping days based on ship mode
+❓ What are the most demanded products and categories?
 
-Generate actionable business insights using visualizations
+❓ Which products take the highest number of days to ship?
 
+❓ Which shipping modes are used most frequently?
 
+🗂 Dataset Description
 
-🗂 Dataset Information
+📦 Retail sales transaction data
 
-Type: Sales Transaction Data / data-set are avaliable in data-set /folder
+🌍 Geography: United States
 
-Key Columns:
+🧾 Key columns used:
 
-1.Order Date
+Order Date, Ship Date
 
-2.Ship Date
+Sales
 
-3.State
+Region, State, City
 
-4.Region
+Category, Product Name
 
-5.Ship Mode
+Customer ID
 
-6.Product Name
-
-7.Sales
-
-
+Ship Mode
 
 🛠 Tools & Technologies Used
 
-1.SQL
-2.EXCEL
+🧮 SQL
 
-📈 Exploratory Data Analysis Performed
+CTEs
 
-1.Sales distribution analysis
+Joins
 
-2.State-wise and region-wise sales analysis
+Aggregate functions
 
-3.Average sales comparison by region
+Window functions
 
-5.Top 5 & Bottom 5 states based on average sales
+Date calculations
 
-6.Shipping days calculation using order and ship dates
+📊 Excel
 
-7.Ship mode vs delivery time analysis
+Data understanding
 
+Basic analysis & validation
 
+📈 Data Visualization
 
-📊 Visualizations Included
+Chart-based insight representation
 
-1.Bar charts for sales comparison
+💻 GitHub
 
-2.Line plots for trends over time
+Project documentation & version control
 
-3.State-wise sales charts
+📊 Analysis Breakdown
+🟦 Regional Sales Analysis
 
-4.Shipping days comparison by ship mode
+🔹 Analyzed total sales by region
 
-📁 Visualization images are available in the visualization/ folder (if applicable).
+🔹 Compared average sales across regions
 
-🔍 Key Insights
-1.Customers demand products / demand products particular state,city.
+Key Findings:
 
-2.The South region recorded the highest average sales compared to other regions.
+✔️ West and East regions dominate total sales
 
-3.Certain states consistently show low average sales, indicating potential areas for improvement.
+✔️ South region shows the highest average sales
 
-4.Standard Class shipping generally takes more days compared to other ship modes.
+✔️ Central region records the lowest average sales
 
-5.Sales performance varies significantly across regions and states.
+🟩 State-Wise Sales Analysis
 
+🔹 Calculated average sales for each state
+
+🔹 Identified top 5 and bottom 5 states
+
+Key Findings:
+
+✔️ Wyoming, Vermont, Nevada, Rhode Island, Montana are top performers
+
+✔️ South Dakota, Kansas, New Mexico, North Dakota, Oregon show low averages
+
+✔️ Sales distribution is highly uneven across states
+
+🟨 Category Performance Analysis
+
+🔹 Analyzed sales contribution by category
+
+🔹 Identified top selling category in each state
+
+Key Findings:
+
+✔️ Office Supplies contribute ~60% of total sales
+
+✔️ Category dominance varies by geography
+
+🟧 Customer & City Analysis
+
+🔹 Analyzed customer count by city and state
+
+🔹 Identified top cities with high customer concentration
+
+Key Findings:
+
+✔️ New York City and Los Angeles have the highest customers
+
+✔️ Customer base is heavily metro-city focused
+
+🟥 Order Distribution Analysis
+
+🔹 Calculated number of orders from each state
+
+Key Findings:
+
+✔️ California leads in total order volume
+
+✔️ High order volume aligns with high sales states
+
+🟪 Shipping & Logistics Analysis
+
+🔹 Calculated shipping days using order & ship dates
+
+🔹 Analyzed shipping mode usage
+
+🔹 Identified products with longest delivery time
+
+Key Findings:
+
+✔️ Standard Class is the most used shipping mode
+
+✔️ Same Day shipping is least used
+
+✔️ Certain products consistently face delivery delays
+
+🟫 Product Demand Analysis
+
+🔹 Identified most demanded products by state
+
+🔹 Analyzed top 3 most demanded products
+
+Key Findings:
+
+✔️ Product demand varies by geography
+
+✔️ Few products drive majority demand (Pareto effect)
+
+🔍 Overall Business Insights
+
+📌 Sales and customers are concentrated in specific regions & cities
+
+📌 Logistics heavily depend on Standard Class shipping
+
+📌 Several states show low performance and growth potential
+
+📌 Product and category demand differs across locations
 
 ✅ Conclusion
 
-This EDA provides meaningful insights into sales trends and operational efficiency.
-The findings can help businesses make data-driven decisions related to regional focus, shipping optimization, and sales strategy improvements.
+✔️ Demonstrates strong SQL analytical skills
 
+✔️ Shows ability to convert data into business insights
 
-🚀 Future Improvements
+✔️ Reflects real-world Data Analyst problem solving
 
-Build an interactive dashboard (Power BI / Tableau)
-
-Perform time-series forecasting
-
-Add customer segmentation analysis
-
-
+✔️ Project is resume & interview ready
 
 👤 Author
 
-Manoj H C
-Aspiring Data Analyst
+Manoj Manu
+📌 Aspiring Data Analyst
