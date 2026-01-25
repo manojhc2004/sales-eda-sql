@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream
 📊 Sales Data Analysis – Exploratory Data Analysis (EDA)
 
 📌 Project Overview
+=======
+📌 Project Overview
+
+>>>>>>> Stashed changes
 
 📈 Performed end-to-end Sales Analysis using SQL
 
@@ -22,6 +27,10 @@
 
 ❓ Which shipping modes are used most frequently?
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 🗂 Dataset Description
 
 📦 Retail sales transaction data
@@ -30,6 +39,7 @@
 
 🧾 Key columns used:
 
+<<<<<<< Updated upstream
 Order Date, Ship Date
 
 Sales
@@ -65,11 +75,57 @@ Basic analysis & validation
 📈 Data Visualization
 
 Chart-based insight representation
+=======
+1.Order Date, 
+
+2.Ship Date
+
+3.Sales
+
+4.Region, State, City
+
+5.Category, Product Name
+
+6.Customer ID
+
+7.Ship Mode
+
+
+🛠 Tools & Technologies Used
+
+
+🧮 SQL
+
+    CTEs
+
+    Joins
+
+    Aggregate functions
+
+    Window functions
+
+    Date calculations
+
+
+📊 Excel
+
+    Data understanding
+
+    Basic analysis & validation
+
+📈 Data Visualization
+
+    Chart-based insight representation
+>>>>>>> Stashed changes
 
 💻 GitHub
 
 Project documentation & version control
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 📊 Analysis Breakdown
 🟦 Regional Sales Analysis
 
@@ -85,6 +141,11 @@ Key Findings:
 
 ✔️ Central region records the lowest average sales
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 🟩 State-Wise Sales Analysis
 
 🔹 Calculated average sales for each state
@@ -99,6 +160,11 @@ Key Findings:
 
 ✔️ Sales distribution is highly uneven across states
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 🟨 Category Performance Analysis
 
 🔹 Analyzed sales contribution by category
@@ -111,6 +177,11 @@ Key Findings:
 
 ✔️ Category dominance varies by geography
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 🟧 Customer & City Analysis
 
 🔹 Analyzed customer count by city and state
@@ -123,6 +194,11 @@ Key Findings:
 
 ✔️ Customer base is heavily metro-city focused
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 🟥 Order Distribution Analysis
 
 🔹 Calculated number of orders from each state
@@ -141,6 +217,10 @@ Key Findings:
 
 🔹 Identified products with longest delivery time
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 Key Findings:
 
 ✔️ Standard Class is the most used shipping mode
@@ -149,6 +229,11 @@ Key Findings:
 
 ✔️ Certain products consistently face delivery delays
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 🟫 Product Demand Analysis
 
 🔹 Identified most demanded products by state
@@ -161,6 +246,11 @@ Key Findings:
 
 ✔️ Few products drive majority demand (Pareto effect)
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 🔍 Overall Business Insights
 
 📌 Sales and customers are concentrated in specific regions & cities
@@ -171,6 +261,11 @@ Key Findings:
 
 📌 Product and category demand differs across locations
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 ✅ Conclusion
 
 ✔️ Demonstrates strong SQL analytical skills
@@ -183,5 +278,10 @@ Key Findings:
 
 👤 Author
 
+<<<<<<< Updated upstream
 Manoj Manu
 📌 Aspiring Data Analyst
+=======
+Manoj H C
+📌 Aspiring Data Analyst
+>>>>>>> Stashed changes
