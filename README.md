@@ -1,15 +1,13 @@
-📊 Sales Analysis Project (SQL + Visualizations)
-
-
+📊 Sales Analysis Project (SQL-Based)
 📌 Project Overview
 
 📈 Performed end-to-end Sales Analysis using SQL
 
-🧠 Focused on extracting business insights from raw sales data
+🧠 Focused on extracting meaningful business insights
 
 🗺️ Analysis covers regions, states, cities, products, shipping & categories
 
-🎯 Objective: Support data-driven decision making
+🎯 Goal: Enable data-driven decision making
 
 🎯 Business Questions Answered
 
@@ -17,16 +15,15 @@
 
 ❓ Which cities have the highest number of customers?
 
-❓ What are the most demanded products and categories?
+❓ What are the most demanded products and top categories?
 
 ❓ Which products take the highest number of days to ship?
 
 ❓ Which shipping modes are used most frequently?
 
-
 🗂 Dataset Description
 
-📦 Retail sales transaction data
+📦 Retail sales transaction dataset
 
 🌍 Geography: United States
 
@@ -44,7 +41,6 @@ Customer ID
 
 Ship Mode
 
-
 🛠 Tools & Technologies Used
 
 🧮 SQL
@@ -53,17 +49,17 @@ CTEs
 
 Joins
 
-Aggregate functions
+Aggregate Functions
 
-Window functions
+Window Functions
 
-Date calculations
+Date Calculations
 
 📊 Excel
 
 Data understanding
 
-Basic analysis & validation
+Quick validation & summaries
 
 📈 Data Visualization
 
@@ -88,12 +84,11 @@ Key Findings:
 
 ✔️ Central region records the lowest average sales
 
-
 🟩 State-Wise Sales Analysis
 
 🔹 Calculated average sales for each state
 
-🔹 Identified top 5 and bottom 5 states
+🔹 Identified Top 5 and Bottom 5 states
 
 Key Findings:
 
@@ -103,10 +98,9 @@ Key Findings:
 
 ✔️ Sales distribution is highly uneven across states
 
-
 🟨 Category Performance Analysis
 
-🔹 Analyzed sales contribution by category
+🔹 Analyzed sales contribution by product category
 
 🔹 Identified top selling category in each state
 
@@ -114,21 +108,19 @@ Key Findings:
 
 ✔️ Office Supplies contribute ~60% of total sales
 
-✔️ Category dominance varies by geography
-
+✔️ Category dominance varies significantly by geography
 
 🟧 Customer & City Analysis
 
 🔹 Analyzed customer count by city and state
 
-🔹 Identified top cities with high customer concentration
+🔹 Identified cities with high customer concentration
 
 Key Findings:
 
-✔️ New York City and Los Angeles have the highest customers
+✔️ New York City and Los Angeles lead in customer count
 
-✔️ Customer base is heavily metro-city focused
-
+✔️ Customer base is strongly metro-city focused
 
 🟥 Order Distribution Analysis
 
@@ -136,9 +128,9 @@ Key Findings:
 
 Key Findings:
 
-✔️ California leads in total order volume
+✔️ California has the highest order volume
 
-✔️ High order volume aligns with high sales states
+✔️ States with high orders generally show high sales
 
 🟪 Shipping & Logistics Analysis
 
@@ -146,7 +138,7 @@ Key Findings:
 
 🔹 Analyzed shipping mode usage
 
-🔹 Identified products with longest delivery time
+🔹 Identified products with long delivery time
 
 Key Findings:
 
@@ -154,8 +146,7 @@ Key Findings:
 
 ✔️ Same Day shipping is least used
 
-✔️ Certain products consistently face delivery delays
-
+✔️ Certain products consistently face shipping delays
 
 🟫 Product Demand Analysis
 
@@ -167,25 +158,28 @@ Key Findings:
 
 ✔️ Product demand varies by geography
 
-✔️ Few products drive majority demand (Pareto effect)
-
+✔️ A small set of products drives majority demand
 
 🔍 Overall Business Insights
 
-📌 Sales and customers are concentrated in specific regions & cities
+📌 Sales and customers are concentrated in specific regions and cities
 
 📌 Logistics heavily depend on Standard Class shipping
 
-📌 Several states show low performance and growth potential
+📌 Several states show low performance and growth opportunities
 
 📌 Product and category demand differs across locations
+
+
+
+
 
 
 ✅ Conclusion
 
 ✔️ Demonstrates strong SQL analytical skills
 
-✔️ Shows ability to convert data into business insights
+✔️ Shows ability to convert raw data into business insights
 
 ✔️ Reflects real-world Data Analyst problem solving
 
