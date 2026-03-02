@@ -1,191 +1,198 @@
-📊 Sales Data Analysis & Exploratory Data Analysis (EDA) Using SQL + Visualization
-📌 Project Overview
+# 📊 Sales Data Analysis & Exploratory Data Analysis (EDA)
+### Using SQL + Visualization
 
-📈 Performed end-to-end Sales Analysis using SQL
+---
 
-🧠 Focused on extracting meaningful business insights
+## 📌 Project Overview
 
-🗺️ Analysis covers regions, states, cities, products, shipping & categories
+This project performs **end-to-end Sales Analysis using SQL** to extract meaningful business insights from a retail dataset.
 
-🎯 Goal: Enable data-driven decision making
+The analysis focuses on:
 
-🎯 Business Questions Answered
+- 🌎 Regions, States, and Cities
+- 📦 Products & Categories
+- 🚚 Shipping & Logistics
+- 👥 Customers
+- 💰 Sales Trends
 
-❓ Which regions and states generate the highest and lowest sales?
+🎯 **Goal:** Enable data-driven decision making through structured SQL analysis and visual insights.
 
-❓ Which cities have the highest number of customers?
+---
 
-❓ What are the most demanded products and top categories?
+## 🎯 Business Questions Answered
 
-❓ Which products take the highest number of days to ship?
+- ❓ Which regions and states generate the highest and lowest sales?
+- ❓ Which cities have the highest number of customers?
+- ❓ What are the most demanded products and top categories?
+- ❓ Which products take the highest number of days to ship?
+- ❓ Which shipping modes are used most frequently?
 
-❓ Which shipping modes are used most frequently?
+---
 
-🗂 Dataset Description
+## 🗂 Dataset Description
 
-📦 Retail sales transaction dataset
+📦 **Dataset Type:** Retail sales transaction dataset  
+🌍 **Geography:** United States
 
-🌍 Geography: United States
+### 🧾 Key Columns Used
 
-🧾 Key columns used:
+- `Order Date`
+- `Ship Date`
+- `Sales`
+- `Region`
+- `State`
+- `City`
+- `Category`
+- `Product Name`
+- `Customer ID`
+- `Ship Mode`
 
-Order Date, Ship Date
+---
 
-Sales
+## 🛠 Tools & Technologies Used
 
-Region, State, City
+### 🧮 SQL
+- CTEs
+- Joins
+- Aggregate Functions
+- Window Functions
+- Date Calculations
 
-Category, Product Name
+### 📊 Excel
+- Data understanding
+- Quick validation & summaries
 
-Customer ID
+### 📈 Data Visualization
+- Chart-based insight representation
 
-Ship Mode
+### 💻 GitHub
+- Project documentation & version control
 
-🛠 Tools & Technologies Used
+---
 
-🧮 SQL
+# 📊 Analysis Breakdown
 
-CTEs
+---
 
-Joins
+## 🟦 Regional Sales Analysis
 
-Aggregate Functions
+### 🔍 What Was Done
+- Calculated total sales by region
+- Compared average sales across regions
 
-Window Functions
+### 📌 Key Findings
+- ✔️ West and East regions dominate total sales
+- ✔️ South region shows the highest average sales
+- ✔️ Central region records the lowest average sales
 
-Date Calculations
+---
 
-📊 Excel
+## 🟩 State-Wise Sales Analysis
 
-Data understanding
+### 🔍 What Was Done
+- Calculated average sales for each state
+- Identified Top 5 and Bottom 5 states
 
-Quick validation & summaries
+### 📌 Key Findings
 
-📈 Data Visualization
+**Top Performers**
+- Wyoming
+- Vermont
+- Nevada
+- Rhode Island
+- Montana
 
-Chart-based insight representation
+**Low Performers**
+- South Dakota
+- Kansas
+- New Mexico
+- North Dakota
+- Oregon
 
-💻 GitHub
+- ✔️ Sales distribution is highly uneven across states
 
-Project documentation & version control
+---
 
-📊 Analysis Breakdown
-🟦 Regional Sales Analysis
+## 🟨 Category Performance Analysis
 
-🔹 Analyzed total sales by region
+### 🔍 What Was Done
+- Analyzed total sales by product category
+- Identified top selling category in each state
 
-🔹 Compared average sales across regions
+### 📌 Key Findings
+- ✔️ Office Supplies contribute ~60% of total sales
+- ✔️ Category dominance varies significantly by geography
 
-Key Findings:
+---
 
-✔️ West and East regions dominate total sales
+## 🟧 Customer & City Analysis
 
-✔️ South region shows the highest average sales
+### 🔍 What Was Done
+- Counted customers by city and state
+- Identified cities with high customer concentration
 
-✔️ Central region records the lowest average sales
+### 📌 Key Findings
+- ✔️ New York City and Los Angeles lead in customer count
+- ✔️ Customer base is highly metro-city focused
 
-🟩 State-Wise Sales Analysis
+---
 
-🔹 Calculated average sales for each state
+## 🟥 Order Distribution Analysis
 
-🔹 Identified Top 5 and Bottom 5 states
+### 🔍 What Was Done
+- Calculated number of orders from each state
 
-Key Findings:
+### 📌 Key Findings
+- ✔️ California has the highest order volume
+- ✔️ High order states generally show high sales
 
-✔️ Wyoming, Vermont, Nevada, Rhode Island, Montana are top performers
+---
 
-✔️ South Dakota, Kansas, New Mexico, North Dakota, Oregon show low averages
+## 🟪 Shipping & Logistics Analysis
 
-✔️ Sales distribution is highly uneven across states
+### 🔍 What Was Done
+- Calculated shipping days using Order Date and Ship Date
+- Analyzed shipping mode usage
+- Identified products with long delivery time
 
-🟨 Category Performance Analysis
+### 📌 Key Findings
+- ✔️ Standard Class is the most used shipping mode
+- ✔️ Same Day shipping is least used
+- ✔️ Certain products consistently face shipping delays
 
-🔹 Analyzed sales contribution by product category
+---
 
-🔹 Identified top selling category in each state
+## 🟫 Product Demand Analysis
 
-Key Findings:
+### 🔍 What Was Done
+- Identified most demanded products by state
+- Analyzed top 3 demanded products
 
-✔️ Office Supplies contribute ~60% of total sales
+### 📌 Key Findings
+- ✔️ Product demand varies by geography
+- ✔️ A small set of products drives majority demand
 
-✔️ Category dominance varies significantly by geography
+---
 
-🟧 Customer & City Analysis
+# 🔍 Overall Business Insights
 
-🔹 Analyzed customer count by city and state
+- 📌 Sales and customers are concentrated in specific regions and metro cities
+- 📌 Logistics heavily depend on Standard Class shipping
+- 📌 Several low-performing states present growth opportunities
+- 📌 Product and category demand differs significantly across locations
 
-🔹 Identified cities with high customer concentration
+---
 
-Key Findings:
+# ✅ Conclusion
 
-✔️ New York City and Los Angeles lead in customer count
+- ✔️ Demonstrates strong SQL analytical skills
+- ✔️ Converts raw data into actionable business insights
+- ✔️ Reflects real-world Data Analyst problem solving
+- ✔️ Resume & interview ready project
 
-✔️ Customer base is strongly metro-city focused
+---
 
-🟥 Order Distribution Analysis
+# 👤 Author
 
-🔹 Calculated number of orders from each state
-
-Key Findings:
-
-✔️ California has the highest order volume
-
-✔️ States with high orders generally show high sales
-
-🟪 Shipping & Logistics Analysis
-
-🔹 Calculated shipping days using order & ship dates
-
-🔹 Analyzed shipping mode usage
-
-🔹 Identified products with long delivery time
-
-Key Findings:
-
-✔️ Standard Class is the most used shipping mode
-
-✔️ Same Day shipping is least used
-
-✔️ Certain products consistently face shipping delays
-
-🟫 Product Demand Analysis
-
-🔹 Identified most demanded products by state
-
-🔹 Analyzed top 3 most demanded products
-
-Key Findings:
-
-✔️ Product demand varies by geography
-
-✔️ A small set of products drives majority demand
-
-🔍 Overall Business Insights
-
-📌 Sales and customers are concentrated in specific regions and cities
-
-📌 Logistics heavily depend on Standard Class shipping
-
-📌 Several states show low performance and growth opportunities
-
-📌 Product and category demand differs across locations
-
-
-
-
-
-
-✅ Conclusion
-
-✔️ Demonstrates strong SQL analytical skills
-
-✔️ Shows ability to convert raw data into business insights
-
-✔️ Reflects real-world Data Analyst problem solving
-
-✔️ Project is resume & interview ready
-
-👤 Author
-
-Manoj H C
+**Manoj H C**  
 📌 Aspiring Data Analyst
