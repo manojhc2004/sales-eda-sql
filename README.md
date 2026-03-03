@@ -79,7 +79,7 @@ The analysis focuses on:
 ### 🔍 What Was Done
 - Calculated total sales by region
 - Compared average sales across regions
-
+  ![Regional_sales](sales_analysis_EDA_project/visualizations/country_region_analysis.viz/state_sales_by_region.png)
 ### 📌 Key Findings
 - ✔️ West and East regions dominate total sales
 - ✔️ South region shows the highest average sales
@@ -92,7 +92,10 @@ The analysis focuses on:
 ### 🔍 What Was Done
 - Calculated average sales for each state
 - Identified Top 5 and Bottom 5 states
-
+#### Average sales for each state?
+  ![Average_sales](sales_analysis_EDA_project/visualizations/statistical_analysis.viz/average_sales_by_state.png)
+#### Top 5 state with lowest average sales?
+  ![Least_average_state](sales_analysis_EDA_project/visualizations/statistical_analysis.viz/top-5_states_with_lowest_average_sales.png)
 ### 📌 Key Findings
 
 **Top Performers**
@@ -118,6 +121,8 @@ The analysis focuses on:
 ### 🔍 What Was Done
 - Analyzed total sales by product category
 - Identified top selling category in each state
+#### Top selling categories in each state?
+  ![Category_Performance](sales_analysis_EDA_project/visualizations/sales_analysis.viz/top_selling_categories_in_each_state.png)
 
 ### 📌 Key Findings
 - ✔️ Office Supplies contribute ~60% of total sales
@@ -130,7 +135,10 @@ The analysis focuses on:
 ### 🔍 What Was Done
 - Counted customers by city and state
 - Identified cities with high customer concentration
-
+#### Which Top 8 cities having high cutsomers?
+  ![Top_8_cities_high_customers](sales_analysis_EDA_project/visualizations/customers_analysis.viz/top_8_cities_having_high_cutsomers.png)
+#### Which city as made highest customers?
+  ![highest_customers_city](sales_analysis_EDA_project/visualizations/customers_analysis.viz/which_city_as_highest_customers.png)
 ### 📌 Key Findings
 - ✔️ New York City and Los Angeles lead in customer count
 - ✔️ Customer base is highly metro-city focused
@@ -141,7 +149,9 @@ The analysis focuses on:
 
 ### 🔍 What Was Done
 - Calculated number of orders from each state
-
+  
+#### Number orders from each states
+  ![Number_of_order](sales_analysis_EDA_project/visualizations/customers_analysis.viz/number_orders_froms_each_state.png)
 ### 📌 Key Findings
 - ✔️ California has the highest order volume
 - ✔️ High order states generally show high sales
@@ -154,7 +164,8 @@ The analysis focuses on:
 - Calculated shipping days using Order Date and Ship Date
 - Analyzed shipping mode usage
 - Identified products with long delivery time
-
+#### Ship Mode used for shipping
+  ![ship_mode_used](sales_analysis_EDA_project/visualizations/order-date_ship-date_analysis.viz/ships_mode_used_for_shipping.png)
 ### 📌 Key Findings
 - ✔️ Standard Class is the most used shipping mode
 - ✔️ Same Day shipping is least used
@@ -180,7 +191,8 @@ The analysis focuses on:
 - 📌 Logistics heavily depend on Standard Class shipping
 - 📌 Several low-performing states present growth opportunities
 - 📌 Product and category demand differs significantly across locations
-
+#### Pecentage of category sales
+  ![percentage_of_sales](sales_analysis_EDA_project/visualizations/product_analysis.viz/percentage_of_category_sales.png)
 ---
 
 # ✅ Conclusion
