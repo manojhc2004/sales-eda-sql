@@ -163,9 +163,6 @@ LIMIT 5
 
 ### 🔍 What Was Done
 - Analyzed total sales by product category
-```
-
-```
 - Identified top selling category in each state
 #### Top selling categories in each state?
 ```
@@ -311,4 +308,4 @@ ORDER BY pro_cnt DESC
 
 **Manoj H C**  
 📌 Aspiring Data Analyst 
--- Linkedin : https://www.linkedin.com/in/manoj-h-c-65b26a34a/
+- Linkedin : https://www.linkedin.com/in/manoj-h-c-65b26a34a/
