@@ -307,5 +307,5 @@ ORDER BY pro_cnt DESC
 # 👤 Author
 
 **Manoj H C**  
-📌 Aspiring Data Analyst 
+Aspiring Data Analyst 
 - Linkedin : https://www.linkedin.com/in/manoj-h-c-65b26a34a/
