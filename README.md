@@ -79,6 +79,21 @@ The analysis focuses on:
 ### 🔍 What Was Done
 - Calculated total sales by region
 - Compared average sales across regions
+```
+WITH descending_order_of_sales AS (
+    SELECT city, SUM(sales) AS total_sales
+    FROM sales
+    GROUP BY city ),
+
+    descending AS (
+        SELECT *
+        FROM descending_order_of_sales
+        ORDER BY total_sales DESC
+)
+SELECT *
+FROM descending
+;
+```
   ![Regional_sales](sales_analysis_EDA_project/visualizations/country_region_analysis.viz/state_sales_by_region.png)
 ### 📌 Key Findings
 - ✔️ West and East regions dominate total sales
@@ -91,7 +106,35 @@ The analysis focuses on:
 
 ### 🔍 What Was Done
 - Calculated average sales for each state
+```
+SELECT state,
+        ROUND(AVG(sales),0) AS average
+FROM sales
+GROUP BY state
+;
+
+```
 - Identified Top 5 and Bottom 5 states
+```
+WITH average_sale AS (
+    SELECT state,
+            ROUND(AVG(sales),0) AS average
+    FROM sales
+    GROUP BY state
+
+    ),
+    order_by_sale AS (
+        SELECT *
+        FROM average_sale
+        ORDER BY average DESC
+    )
+
+SELECT *
+FROM order_by_sale
+LIMIT 5
+; 
+```
+
 #### Average sales for each state?
   ![Average_sales](sales_analysis_EDA_project/visualizations/statistical_analysis.viz/average_sales_by_state.png)
 #### Top 5 state with lowest average sales?
@@ -120,8 +163,28 @@ The analysis focuses on:
 
 ### 🔍 What Was Done
 - Analyzed total sales by product category
+```
+
+```
 - Identified top selling category in each state
 #### Top selling categories in each state?
+```
+WITH most_sale_category AS (
+    SELECT state,
+        category,
+        SUM(sales) AS sumsale
+    FROM sales
+    GROUP BY state,category
+),
+    rows_num AS (
+        SELECT state,category,
+        ROW_NUMBER() OVER(PARTITION BY state ORDER BY sumsale DESC) AS row_num
+    FROM most_sale_category
+    
+    )
+SELECT *
+FROM rows_num;
+```
   ![Category_Performance](sales_analysis_EDA_project/visualizations/sales_analysis.viz/top_selling_categories_in_each_state.png)
 
 ### 📌 Key Findings
@@ -134,6 +197,14 @@ The analysis focuses on:
 
 ### 🔍 What Was Done
 - Counted customers by city and state
+```
+SELECT COUNT(DISTINCT(customer_id)) AS cnt,
+        state
+FROM sales
+GROUP BY(state)
+ORDER BY cnt DESC
+;
+```
 - Identified cities with high customer concentration
 #### Which Top 8 cities having high cutsomers?
   ![Top_8_cities_high_customers](sales_analysis_EDA_project/visualizations/customers_analysis.viz/top_8_cities_having_high_cutsomers.png)
@@ -149,6 +220,14 @@ The analysis focuses on:
 
 ### 🔍 What Was Done
 - Calculated number of orders from each state
+```
+SELECT COUNT(DISTINCT(order_id)) AS o_cnt,
+        state
+FROM sales
+GROUP BY(state)
+ORDER BY o_cnt DESC 
+;
+```
   
 #### Number orders from each states
   ![Number_of_order](sales_analysis_EDA_project/visualizations/customers_analysis.viz/number_orders_froms_each_state.png)
@@ -162,6 +241,22 @@ The analysis focuses on:
 
 ### 🔍 What Was Done
 - Calculated shipping days using Order Date and Ship Date
+```
+WITH maximum AS (
+    SELECT product_name,
+            ship_date - order_date AS diff
+    FROM sales
+    ),
+    get_maximum AS (
+        SELECT MAX(diff) AS max_num
+        FROM maximum -- identifies the maximum number 
+    )
+
+SELECT *
+FROM maximum
+WHERE diff = 7
+;
+```
 - Analyzed shipping mode usage
 - Identified products with long delivery time
 #### Ship Mode used for shipping
@@ -178,7 +273,15 @@ The analysis focuses on:
 ### 🔍 What Was Done
 - Identified most demanded products by state
 - Analyzed top 3 demanded products
-
+```
+SELECT COUNT(product_id) AS pro_cnt,
+            product_id,
+            product_name
+FROM sales
+GROUP BY product_id,product_name
+ORDER BY pro_cnt DESC
+;
+```
 ### 📌 Key Findings
 - ✔️ Product demand varies by geography
 - ✔️ A small set of products drives majority demand
@@ -208,4 +311,4 @@ The analysis focuses on:
 
 **Manoj H C**  
 📌 Aspiring Data Analyst 
-    Linkedin : https://www.linkedin.com/in/manoj-h-c-65b26a34a/
+-- Linkedin : https://www.linkedin.com/in/manoj-h-c-65b26a34a/
